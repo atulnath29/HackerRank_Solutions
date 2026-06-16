@@ -5,7 +5,11 @@ This repository contains my solutions to various HackerRank challenges in **Java
 
 
 
+## 📊 Progress Tracker
 
+| Track | Stars / Badges Earned |
+| :--- | :--- |
+| **Java** | ⭐ |
 | **Problem Solving** | 09 |
 
 ## 📌 About This Repository
