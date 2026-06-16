@@ -1,0 +1,51 @@
+/*Neha likes only number which has factor 1 or the number itself help Neha finding her favorite number For Example you have to take input N and Check whether its favorite number of Neha or Not If it is then print "Neha is Happy" otherwise Print "Neha is Sad"
+
+Input Format
+
+4
+
+Constraints
+
+1<=N<=200
+
+Output Format
+
+Neha is Sad
+
+Sample Input 0
+
+-1
+Sample Output 0
+
+Neha is Sad
+Sample Input 1
+
+1
+Sample Output 1
+
+Neha is Sad
+*/
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       int a = sc.nextInt();
+       int c =0;
+       for( int i = 1; i <=a; i=i+1){
+       if ( a % i == 0)
+       {
+        c = c +1;
+       }
+    }
+    if(c == 2){
+            System.out.println("Neha is Happy");
+        }
+        else{
+            System.out.println("Neha is Sad");
+        }
+    }
+}
