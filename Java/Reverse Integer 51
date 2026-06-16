@@ -1,0 +1,48 @@
+/*
+Take a Integer N. Simply Reverse it and print the number
+
+Input Format
+
+Single Integer N using Scanner
+
+Constraints
+
+1 <= N <= 20000
+
+Output Format
+
+Single Integer reverse of N
+
+Sample Input 0
+
+123
+Sample Output 0
+
+321
+Sample Input 1
+
+1
+Sample Output 1
+
+1
+*/
+
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int re = 0;
+        while(n>0)
+        {
+            int d = n % 10;
+            re = (re * 10) + d;
+            n = n/10;
+        }
+        System.out.print(re);
+    }
+}
