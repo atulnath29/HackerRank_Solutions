@@ -1,0 +1,57 @@
+/*
+A Number N will be perfect if and only if sum all factors of N except N iteself will be equal to N.
+
+for ex N = 28 (Factors are : 1, 2,4,7,14 except 28) Sum of all factors are 1+2+4+7+14 = 28 , So N = 28 is perfect.
+
+Input Format
+
+A single input N
+
+Constraints
+
+1<=N<=200
+
+Output Format
+
+Print "Perfect Number" if N is perfect Otherwise Print "Not Perfect Number" Note : Please Make sure to use the same Spelling.
+
+Sample Input 0
+
+7
+Sample Output 0
+
+Not Perfect Number
+Sample Input 1
+
+28
+Sample Output 1
+
+Perfect Number
+*/
+
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int s = 0;
+        for( int i = 1; i <= n/2; i++)
+        {
+            if ( n%i ==0)
+            {
+                s = s+i;
+            }
+        }
+        if (n==s)
+        {
+            System.out.println("Perfect Number");
+        }       
+        else{
+            System.out.println("Not Perfect Number");
+        }
+    }
+}
