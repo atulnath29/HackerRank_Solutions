@@ -1,0 +1,44 @@
+/*
+Find factorial of a number N factorial of N is N*(N-1)(N-2)....1 for N = 5 output will be 120 5*4*3*2*1 = 120
+
+Input Format
+
+Single number N
+
+Constraints
+
+1 <= N <=15
+
+Output Format
+
+Single factorial value
+
+Sample Input 0
+
+1
+Sample Output 0
+
+1
+Sample Input 1
+
+5
+Sample Output 1
+
+120
+*/
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       int n = sc.nextInt();
+       int s = 1; 
+       for( int i = 1; i <= n; i++){
+            s = s*i;
+       }
+       System.out.println(s);
+    }
+}
