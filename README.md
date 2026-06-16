@@ -3,12 +3,10 @@
 Welcome to my *HackerRank Java Solutions Repository* 👨‍💻  
 This repository contains my solutions to various HackerRank challenges in **Java**, uploaded consistently to master language proficiency, sharpen my Data Structures & Algorithms skills, and maintain a strong coding routine.
 
-## 📊 Progress Tracker
 
-| Track | Stars / Badges Earned |
-| :--- | :--- |
-| **Java** | ⭐⭐⭐⭐⭐ |
-| **Problem Solving** | ⭐⭐⭐⭐⭐ |
+
+
+| **Problem Solving** | 09 |
 
 ## 📌 About This Repository
 
